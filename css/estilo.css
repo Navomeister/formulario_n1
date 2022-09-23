@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#container{
+    margin: 0 auto;
+    width: 400px;
+    height: 800px;
+    background-color: #F9F8F6;
+    /* background-color:wheat; */
+    font-family: 'Roboto', 'sans-serif';
+}
+
+#linhacima{
+    height: 4px;
+    width: 400px;
+    background-color: #FFBB12;
+    margin-bottom: 15px;
+}
+
+#quadrado{
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    background-color: #FFBB12;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+#inscreva{
+    font-weight: 600;
+    font-size: 36px;
+    color: #464237;
+    margin-left: 20px;
+    margin-top: -30px;
+}
+
+#centro{
+    width: 360px;
+    height: 620px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: -5px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
+    padding-top: 20px;
+}
+
+#label_nome{
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+
+#input_nome{
+    width: 305px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #D2CEC5;
+    background-color: #F9F8F6;
+    outline: none;
+    padding-left: 15px;
+}
+
+#input_nome:focus-within{
+    border-color: #FEBC10;
+    box-shadow: 0 0 5px #FFEEA9 ;
+}
+
+#label_email{
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#input_email{
+    width: 305px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #D2CEC5;
+    background-color: #F9F8F6;
+    outline: none;
+    padding-left: 15px;
+}
+
+#input_email:focus-within{
+    border-color: #FEBC10;
+    box-shadow: 0 0 5px #FFEEA9 ;
+}
+
+#label_senha{
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#input_senha{
+    width: 305px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #D2CEC5;
+    background-color: #F9F8F6;
+    outline: none;
+    padding-left: 15px;
+}
+
+#img_senha{
+    margin-left: 310px;
+    margin-top: -30px;
+    margin-bottom: 45px;
+    margin-right: -310px;
+    opacity: 0.2;
+}
+
+#input_senha:focus-within{
+    border-color: #FEBC10;
+    box-shadow: 0 0 5px #FFEEA9 ;
+}
+
+#label_cep{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: -5px;
+    margin-top: -10px;
+}
+
+#input_cep{
+    width: 135px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #D2CEC5;
+    background-color: #F9F8F6;
+    outline: none;
+}
+
+#input_cep:focus-within{
+    border-color: #FEBC10;
+    box-shadow: 0 0 5px #FFEEA9 ;
+}
+
+#label_numero{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 140px;
+}
+
+#input_numero{ 
+    width: 135px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #D2CEC5;
+    background-color: #F9F8F6;
+    outline: none;
+}
+
+#input_numero:focus-within{
+    border-color: #FEBC10;
+    box-shadow: 0 0 5px #FFEEA9 ;
+}
+
+#label_rua{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: -10px;
+}
+
+#input_rua{
+    width: 305px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #D2CEC5;
+    background-color: #F9F8F6;
+    outline: none;
+    padding-left: 15px;
+}
+
+#input_rua:focus-within{
+    border-color: #FEBC10;
+    box-shadow: 0 0 5px #FFEEA9 ;
+}
+
+#label_cidade{
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#select_cidade{
+    width: 325px;
+    height: 40px;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #D2CEC5;
+    background-color: #F9F8F6;
+    color: grey;
+    outline: none;
+    padding-left: 10px;
+}
+
+#select_cidade:focus-within{
+    border-color: #FEBC10;
+    box-shadow: 0 0 5px #FFEEA9 ;
+}
+
+#check_termos{
+    margin-left: 15px;
+}
+
+#label_termos{
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+#button_cadastrar{
+    margin-top: 20px;
+    margin-left: 15px;
+    height: 50px;
+    width: 170px;
+    border-radius: 5px;
+    background-color: #FFBB12;
+    font-size: 16px;
+    font-weight: 600;
+    color: #764701;
+    border: none;
+}
